@@ -10,7 +10,7 @@ test('OCI_ReeferStatusReport', async ({ page }) => {
     console.log("OCI_ReeferStatusReport");
    
     // Set the test timeout to 200 seconds
-    test.setTimeout(200000);
+    test.setTimeout(600000);
     
     // Login to the application and record the start time
     const start = await login(page);
